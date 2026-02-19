@@ -23,6 +23,15 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
     alert(`Add Money Success from ${bankAccount}
     at ${new Date()}`);
     setBalance(newBalance);
+
+    const transactions = document.getElementById("transaction-container");
+    const newTransaction = document.createElement('div');
+    newTransaction.innerHTML = `
+    <div class="transaction-card p-5 bg-base-100">
+        Add Money Success from ${bankAccount}, acc-no ${accno} at ${new Date()}
+    </div>
+    `;
+    transactions.appendChild(newTransaction);
   } else {
     alert("Invalid Pin");
     return;

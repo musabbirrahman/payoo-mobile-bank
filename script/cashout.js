@@ -22,6 +22,14 @@ document.getElementById("cashout-btn").addEventListener("click", function () {
   if (pin == "1234") {
     alert("cashout successful");
     setBalance(newBalance);
+    const transactions = document.getElementById("transaction-container");
+    const newTransaction = document.createElement('div');
+    newTransaction.innerHTML = `
+    <div class="transaction-card p-5 bg-base-100">
+        Cashout ${cashoutAmount} TAKA Success to ${cashoutNumber} at ${new Date()}
+    </div>
+    `;
+    transactions.appendChild(newTransaction);
   } else {
     alert("invalid pin");
     return;
