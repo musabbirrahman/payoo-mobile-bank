@@ -2,7 +2,7 @@ Payoo - Mobile Banking Web App 💸
 A fully interactive, front-end simulation of a mobile banking application. This project demonstrates dynamic DOM manipulation, state management, and modern UI design without relying on heavy JavaScript frameworks.
 
 🚀 Live Demo
-[Insert your live link here, e.g., hosted on Vercel, Netlify, or GitHub Pages]
+[https://musabbirrahman.github.io/payoo-mobile-bank/]
 
 🔑 Test Credentials
 To explore the application and test the functionality, use the following demo login details:
@@ -45,4 +45,5 @@ This application currently serves as a robust front-end showcase. As I continue 
 
 Author
 Musabbir Rahman
-@musabbirrahman
+Github: [https://github.com/musabbirrahman]
+Facebook: [https://www.facebook.com/dev.musabbirrahman]
